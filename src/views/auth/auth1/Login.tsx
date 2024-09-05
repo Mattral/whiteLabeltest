@@ -1,16 +1,3 @@
-import { SignIn } from "@clerk/nextjs";
-
-export default function LoginPage() {
-  return (
-    <main className="flex h-screen w-full items-center justify-center">
-      <SignIn />
-    </main>
-  );
-}
-
-
-
-/*
 'use client';
 
 // NEXT
@@ -28,7 +15,7 @@ import Logo from 'components/logo';
 import AuthSocButton from 'sections/auth/AuthSocButton';
 import AuthDivider from 'sections/auth/AuthDivider';
 import AuthWrapper from 'sections/auth/AuthWrapper';
-import AuthLogin from 'sections/auth/auth-forms/AuthLogin';
+import AuthLogin1 from 'sections/auth/auth-forms/AuthLogin1';
 
 // ASSETS
 const imgFacebook = '/assets/images/auth/facebook.svg';
@@ -94,7 +81,7 @@ const LoginPage = () => {
           </Stack>
         </Grid>
         <Grid item xs={12}>
-          <AuthLogin forgot="/auth/forgot-password" />
+          <AuthLogin1 forgot="/auth/forgot-password" />
         </Grid>
       </Grid>
     </AuthWrapper>
@@ -103,4 +90,3 @@ const LoginPage = () => {
 
 export default LoginPage;
 
-*/

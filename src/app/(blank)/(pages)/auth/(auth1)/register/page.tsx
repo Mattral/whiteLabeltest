@@ -1,4 +1,4 @@
-
+'use client';
 // PROJECT IMPORTS
 import RegisterPage from 'views/auth/auth1/Register';
 
