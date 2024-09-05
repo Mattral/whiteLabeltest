@@ -119,8 +119,11 @@ const AuthRegister = () => {
             
             const signInResult = await signIn('credentials', {
               redirect: false, // Prevent automatic redirect and doing manual
+              pers_fName: values.pers_fName,
               email: values.email,
               password: values.password,
+              password_confirmation: values.password_confirmation,
+              pers_lName: values.pers_lName,
               callbackUrl: '/dashboard/default'
             });
       
